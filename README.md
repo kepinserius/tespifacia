@@ -295,30 +295,6 @@ Aplikasi menyediakan endpoint RESTful API untuk semua entitas:
 
 Semua endpoint API dilindungi dengan autentikasi Laravel Sanctum kecuali login dan register.
 
-## Tips untuk Presentasi
-
-1. **Demonstrasi Login dengan Berbagai Peran**
-   - Tunjukkan perbedaan UI dan akses untuk admin, manager, dan user
-   - Jelaskan bagaimana peran dan izin diimplementasikan dengan Spatie Permission
-
-2. **Fitur CRUD**
-   - Tunjukkan operasi CRUD untuk kategori, proyek, dan tugas
-   - Jelaskan relasi antar model dan bagaimana data divalidasi
-
-3. **Fitur Khusus**
-   - Demonstrasikan import/export Excel
-   - Tunjukkan audit trail untuk perubahan data
-   - Jelaskan penggunaan UUID dan soft deletes
-
-4. **Arsitektur Aplikasi**
-   - Jelaskan pemisahan backend (Laravel) dan frontend (Vue.js)
-   - Jelaskan bagaimana state management bekerja dengan Vuex
-   - Jelaskan bagaimana autentikasi bekerja dengan Sanctum
-
-5. **UI/UX**
-   - Tunjukkan responsivitas UI dengan Tailwind CSS
-   - Jelaskan penggunaan komponen Vue untuk reusability
-
 ## Persyaratan Sistem
 - PHP 8.1+
 - Laravel 10.x
